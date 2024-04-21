@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* first section */
+
+.first{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+}
+.logo{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.bar-icon{
+    margin-right: 20px;
+    font-size: 32px;
+}
+
+
+/* second section */
+.second{
+    /* margin-top: 10px; */
+    /* display: flex; */
+    justify-content: space-around;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.pic{
+    margin-left: 300px;;
+}
+.second img{
+    height: 400px;
+}
+.second-box{
+    height: 562px;
+    width: 477px;
+    padding-top: 100px;
+    margin-right: 300px;
+}
+.second-box h1{
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: 400;
+}
+.second-box p{
+    margin-bottom: 10px;
+}
+.tag{
+    background-color: #149f39;
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+    width: 180px;
+    margin-bottom: 10px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.explore_btn{
+    background-color: #ffc066;
+}
+
+.feature{
+    display: flex;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.logo img{
+    height: 60px;
+}
+.text p{
+    font-size: 14px;
+    padding-top: 2px;
+    font-weight: 200;
+}
+.contents{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.contents img{
+    height: 70px;
+}
+.same h3{
+    margin-bottom: 10px;
+}
+.footer-logo{
+    display: flex;
+    margin: 5px ;
+   
+}
+.footer-logo-prop{
+    margin-right: 4px;
+}
+@media (max-width:686px){
+    .content{
+        flex-direction: column;
+    }
+    .pic{
+       width: 90%; 
+       display: flex;
+       justify-content: center;
+    }
+    .second-box{
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+    }
+    .second-box h1{
+        font-size: 32px;
+        line-height: 1.2;
+    }
+}
